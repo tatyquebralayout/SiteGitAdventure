@@ -26,7 +26,7 @@ Git Adventure é uma landing page interativa que apresenta uma abordagem gamific
 
 ```bash
 # Clone o repositório
-git clone https://github.com/[seu-usuario]/site_gitadventure.git
+git clone https://github.com/tatyquebralayout/site_gitadventure.git
 
 # Entre no diretório
 cd site_gitadventure
@@ -40,7 +40,7 @@ npm run dev
 
 ## Deployment
 
-O site está disponível em: [https://[seu-usuario].github.io/site_gitadventure](https://[seu-usuario].github.io/site_gitadventure)
+O site está disponível em: [https://tatyquebralayout.github.io/site_gitadventure](https://tatyquebralayout.github.io/site_gitadventure)
 
 Para fazer deploy:
 
@@ -54,4 +54,4 @@ MIT
 
 ## Autor
 
-[Seu Nome] - [Seu Email ou Site] 
+Tatiane Gonçalves 
