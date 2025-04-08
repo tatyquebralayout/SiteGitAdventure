@@ -10,6 +10,9 @@ export default {
           700: '#6B21A8',
         },
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
     },
   },
   plugins: [],

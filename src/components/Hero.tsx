@@ -8,10 +8,11 @@ export function Hero() {
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex justify-center mb-8">
             <div className="relative">
+              <div className="absolute inset-0 -m-4 bg-gradient-radial from-yellow-400/60 to-transparent rounded-full blur-xl animate-pulse"></div>
               <img 
                 src="/SiteGitAdventure/images/logo.webp" 
                 alt="Git Adventure Logo" 
-                className="h-48 object-contain"
+                className="h-48 object-contain relative z-10"
               />
             </div>
           </div>
