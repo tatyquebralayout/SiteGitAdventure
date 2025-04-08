@@ -9,7 +9,7 @@ export function Hero() {
           <div className="flex justify-center mb-8">
             <div className="relative">
               <img 
-                src="/images/logo.webp" 
+                src="/SiteGitAdventure/images/logo.webp" 
                 alt="Git Adventure Logo" 
                 className="h-32 object-contain"
               />
