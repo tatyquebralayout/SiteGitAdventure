@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://tatyquebralayout.github.io/site_gitadventure",
+  "homepage": "https://tatyquebralayout.github.io/GitAdventure_site",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
