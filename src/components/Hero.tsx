@@ -8,7 +8,8 @@ export function Hero() {
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex justify-center mb-8">
             <div className="relative">
-              <div className="absolute inset-0 -m-4 bg-gradient-radial from-yellow-400/60 to-transparent rounded-full blur-xl animate-pulse"></div>
+              <div className="absolute inset-0 -m-8 bg-gradient-radial from-yellow-300 via-amber-400/80 to-transparent rounded-full blur-lg animate-pulse"></div>
+              <div className="absolute inset-0 -m-6 bg-gradient-radial from-yellow-400 to-transparent rounded-full blur-md animate-pulse"></div>
               <img 
                 src="/SiteGitAdventure/images/logo.webp" 
                 alt="Git Adventure Logo" 
