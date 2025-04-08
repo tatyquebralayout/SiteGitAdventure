@@ -1,0 +1,86 @@
+{
+  "basicCommands": [
+    {
+      "id": "init",
+      "command": "git init",
+      "description": "Inicializa um novo repositório Git",
+      "category": "basic",
+      "example": "git init",
+      "notes": "Cria uma pasta .git que contém toda a estrutura necessária para o controle de versão"
+    },
+    {
+      "id": "clone",
+      "command": "git clone",
+      "description": "Clona um repositório existente",
+      "category": "basic",
+      "example": "git clone https://github.com/user/repo.git",
+      "notes": "Cria uma cópia local de um repositório remoto"
+    },
+    {
+      "id": "add",
+      "command": "git add",
+      "description": "Adiciona arquivos ao staging area",
+      "category": "basic",
+      "example": "git add file.txt",
+      "notes": "Use git add . para adicionar todos os arquivos modificados"
+    },
+    {
+      "id": "commit",
+      "command": "git commit",
+      "description": "Cria um novo commit com as alterações no staging area",
+      "category": "basic",
+      "example": "git commit -m \"Mensagem do commit\"",
+      "notes": "A opção -m permite adicionar uma mensagem sem abrir o editor de texto"
+    },
+    {
+      "id": "push",
+      "command": "git push",
+      "description": "Envia os commits locais para o repositório remoto",
+      "category": "basic",
+      "example": "git push origin main",
+      "notes": "Envie para a branch especificada no repositório remoto"
+    }
+  ],
+  "advancedCommands": [
+    {
+      "id": "branch",
+      "command": "git branch",
+      "description": "Lista, cria ou exclui branches",
+      "category": "advanced",
+      "example": "git branch nova-branch",
+      "notes": "Use -d para excluir uma branch e -a para listar todas as branches"
+    },
+    {
+      "id": "checkout",
+      "command": "git checkout",
+      "description": "Muda para outra branch ou restaura arquivos",
+      "category": "advanced",
+      "example": "git checkout feature-branch",
+      "notes": "Use -b para criar uma nova branch e mudar para ela"
+    },
+    {
+      "id": "merge",
+      "command": "git merge",
+      "description": "Mescla uma branch na branch atual",
+      "category": "advanced",
+      "example": "git merge feature-branch",
+      "notes": "Resolve conflitos manualmente se necessário"
+    },
+    {
+      "id": "pull",
+      "command": "git pull",
+      "description": "Atualiza o repositório local com as alterações do remoto",
+      "category": "advanced",
+      "example": "git pull origin main",
+      "notes": "Equivalente a git fetch seguido de git merge"
+    },
+    {
+      "id": "rebase",
+      "command": "git rebase",
+      "description": "Reaplica commits em outra base",
+      "category": "advanced",
+      "example": "git rebase main",
+      "notes": "Reorganiza a história de commits, criando uma linha mais limpa"
+    }
+  ]
+} 
