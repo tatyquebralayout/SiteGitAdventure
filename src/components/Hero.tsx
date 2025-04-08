@@ -1,4 +1,4 @@
-import { Sparkles, GitCommit, GitBranch, GitMerge, GitPullRequest, ChevronRight } from 'lucide-react';
+import { GitCommit, GitBranch, GitMerge, GitPullRequest, ChevronRight } from 'lucide-react';
 
 export function Hero() {
   return (
@@ -11,9 +11,8 @@ export function Hero() {
               <img 
                 src="/SiteGitAdventure/images/logo.webp" 
                 alt="Git Adventure Logo" 
-                className="h-32 object-contain"
+                className="h-48 object-contain"
               />
-              <Sparkles className="absolute -top-2 -right-2 w-6 h-6 text-purple-400" />
             </div>
           </div>
           <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12">
