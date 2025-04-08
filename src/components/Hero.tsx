@@ -11,7 +11,7 @@ export function Hero() {
               <div className="absolute inset-0 -m-8 bg-gradient-radial from-yellow-300 via-amber-400/80 to-transparent rounded-full blur-lg animate-pulse"></div>
               <div className="absolute inset-0 -m-6 bg-gradient-radial from-yellow-400 to-transparent rounded-full blur-md animate-pulse"></div>
               <img 
-                src="/SiteGitAdventure/images/logo.webp" 
+                src="/SiteGitAdventure/images/newlogo.webp" 
                 alt="Git Adventure Logo" 
                 className="h-48 object-contain relative z-10"
               />
