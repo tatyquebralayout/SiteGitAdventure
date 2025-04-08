@@ -3,12 +3,19 @@ import App from './App';
 import { BlogPage } from './pages/BlogPage';
 
 export function Router() {
-  const [currentRoute, setCurrentRoute] = useState<string>(window.location.hash || '#home');
+  const [currentRoute, setCurrentRoute] = useState<string>(
+    window.location.hash || '#home'
+  );
 
   useEffect(() => {
     const handleHashChange = () => {
       setCurrentRoute(window.location.hash);
     };
+
+    // Configuração inicial para garantir que funcionará no GitHub Pages
+    if (!window.location.hash) {
+      window.location.hash = '#home';
+    }
 
     window.addEventListener('hashchange', handleHashChange);
     return () => {
